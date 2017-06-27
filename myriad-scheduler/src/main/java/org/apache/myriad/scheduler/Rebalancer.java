@@ -52,51 +52,6 @@ public class Rebalancer implements Runnable {
     if (activeIds.size() < 1 && pendingIds.size() < 1) {
       myriadOperations.flexUpCluster(profileManager.get("small"), 1, null);
     }
-    //            RestAdapter restAdapter = new RestAdapter.Builder()
-    //                    .setEndpoint("http://" + host + ":" + port)
-    //                    .setLogLevel(LogLevel.FULL).build();
-    //            YARNResourceManagerService service = restAdapter
-    //                    .create(YARNResourceManagerService.class);
-    //
-    //            ClusterMetrics metrics = service.metrics().getClusterMetrics();
-    //            AppsResponse appsResponse = service.apps("ACCEPTED");
-    //
-    //            int acceptedApps = 0;
-    //
-    //            if (appsResponse == null || appsResponse.getApps() == null
-    //                    || appsResponse.getApps().getApps() == null) {
-    //                acceptedApps = 0;
-    //            } else {
-    //                acceptedApps = appsResponse.getApps().getApps().size();
-    //            }
-    //            LOGGER.info("Metrics: {}", metrics);
-    //            LOGGER.info("Apps: {}", appsResponse);
-    //
-    //            long availableMB = metrics.getAvailableMB();
-    //            long allocatedMB = metrics.getAllocatedMB();
-    //            long reservedMB = metrics.getReservedMB();
-    //            int activeNodes = metrics.getActiveNodes();
-    //            int unhealthyNodes = metrics.getUnhealthyNodes();
-    //            int appsPending = metrics.getAppsPending();
-    //            int appsRunning = metrics.getAppsRunning();
-
-    //            if (activeNodes == 0 && appsPending > 0) {
-    //                LOGGER.info(
-    //                        "Flexing up for condition: activeNodes ({}) == 0 && appsPending ({}) > 0",
-    //                        activeNodes, appsPending);
-    //                this.myriadOperations.flexUpCluster(clusterId, 1, "small");
-    //            } else if (appsPending == 0 && appsRunning == 0 && activeNodes > 0) {
-    //                LOGGER.info(
-    //                        "Flexing down for condition: appsPending ({}) == 0 && appsRunning ({}) == 0 && activeNodes ({}) > 0",
-    //                        appsPending, appsRunning, activeNodes);
-    //                this.myriadOperations.flexDownCluster(cluster, 1);
-    //            } else if (acceptedApps > 0) {
-    //                LOGGER.info("Flexing up for condition: acceptedApps ({}) > 0",
-    //                        acceptedApps);
-    //                this.myriadOperations.flexUpCluster(clusterId, 1, "small");
-    //            } else {
-    //                LOGGER.info("Nothing to rebalance");
-    //                this.schedulerState.releaseLock(clusterId);
-    //            }
+    
   }
 }
