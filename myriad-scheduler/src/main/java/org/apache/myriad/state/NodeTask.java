@@ -26,7 +26,7 @@ import org.apache.commons.lang.StringUtils;
 import org.apache.mesos.Protos;
 import org.apache.mesos.Protos.Attribute;
 import org.apache.myriad.scheduler.ServiceResourceProfile;
-import org.apache.myriad.scheduler.TaskUtils;
+import org.apache.myriad.scheduler.util.TaskUtils;
 import org.apache.myriad.scheduler.constraints.Constraint;
 
 /**

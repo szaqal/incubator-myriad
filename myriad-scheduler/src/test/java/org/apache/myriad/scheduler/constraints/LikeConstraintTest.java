@@ -17,20 +17,19 @@
  */
 package org.apache.myriad.scheduler.constraints;
 
-import static org.apache.mesos.Protos.Value.Type.TEXT;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
-
-import java.util.List;
-
+import com.google.common.collect.Lists;
 import org.apache.mesos.Protos;
 import org.apache.mesos.Protos.Attribute;
 import org.apache.mesos.Protos.Value.Text;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.google.common.collect.Lists;
+import java.util.List;
+
+import static org.apache.mesos.Protos.Value.Type.TEXT;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 /**
  * Unit tests for LikeConstraint
  */

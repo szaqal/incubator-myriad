@@ -30,6 +30,8 @@ import org.slf4j.LoggerFactory;
  * Format: <mesos_slave_attribute|hostname> LIKE <regex_value>
  */
 public class LikeConstraint implements Constraint {
+
+
   private static final Logger LOGGER = LoggerFactory.getLogger(LikeConstraint.class);
 
   private static final String HOSTNAME = "hostname";

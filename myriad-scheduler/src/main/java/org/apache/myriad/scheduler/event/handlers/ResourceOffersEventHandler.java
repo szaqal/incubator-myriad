@@ -31,7 +31,7 @@ import org.apache.mesos.Protos.Offer;
 import org.apache.mesos.Protos.TaskInfo;
 import org.apache.mesos.SchedulerDriver;
 import org.apache.myriad.configuration.MyriadConfiguration;
-import org.apache.myriad.scheduler.SchedulerUtils;
+import org.apache.myriad.scheduler.util.SchedulerUtils;
 import org.apache.myriad.scheduler.ServiceResourceProfile;
 import org.apache.myriad.scheduler.TaskFactory;
 import org.apache.myriad.scheduler.constraints.Constraint;

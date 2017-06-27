@@ -48,7 +48,7 @@ import org.apache.myriad.scheduler.Rebalancer;
 import org.apache.myriad.scheduler.ServiceProfileManager;
 import org.apache.myriad.scheduler.ServiceResourceProfile;
 import org.apache.myriad.scheduler.TaskTerminator;
-import org.apache.myriad.scheduler.TaskUtils;
+import org.apache.myriad.scheduler.util.TaskUtils;
 import org.apache.myriad.scheduler.yarn.interceptor.InterceptorRegistry;
 import org.apache.myriad.state.SchedulerState;
 import org.apache.myriad.webapp.MyriadWebServer;

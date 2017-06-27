@@ -31,7 +31,7 @@ import org.apache.myriad.TestObjectFactory;
 import org.apache.myriad.configuration.MyriadConfiguration;
 import org.apache.myriad.scheduler.MockSchedulerDriver;
 import org.apache.myriad.scheduler.MyriadDriver;
-import org.apache.myriad.scheduler.TaskUtils;
+import org.apache.myriad.scheduler.util.TaskUtils;
 import org.apache.myriad.scheduler.yarn.MyriadFairScheduler;
 import org.apache.myriad.scheduler.yarn.interceptor.CompositeInterceptor;
 import org.apache.myriad.state.MockRMContext;

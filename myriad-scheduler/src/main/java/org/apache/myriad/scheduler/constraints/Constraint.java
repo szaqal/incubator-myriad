@@ -22,7 +22,9 @@ package org.apache.myriad.scheduler.constraints;
  * Interface for Constraint.
  */
 public interface Constraint {
-  public Type getType();
+
+
+  Type getType();
 
   /**
    * Type of Constraint

@@ -27,6 +27,7 @@ import org.apache.mesos.Protos.Offer;
 import org.apache.mesos.Protos.TaskID;
 import org.apache.myriad.BaseConfigurableTest;
 import org.apache.myriad.TestObjectFactory;
+import org.apache.myriad.scheduler.util.SchedulerUtils;
 import org.apache.myriad.state.NodeTask;
 import org.apache.myriad.state.SchedulerState;
 import org.junit.Before;

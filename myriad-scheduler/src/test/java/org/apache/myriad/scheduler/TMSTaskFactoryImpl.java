@@ -26,6 +26,7 @@ import org.apache.mesos.Protos.TaskID;
 import org.apache.mesos.Protos.TaskInfo;
 import org.apache.myriad.configuration.MyriadConfiguration;
 import org.apache.myriad.scheduler.resource.ResourceOfferContainer;
+import org.apache.myriad.scheduler.util.TaskUtils;
 
 /**
  * Test implementation of TaskFactory

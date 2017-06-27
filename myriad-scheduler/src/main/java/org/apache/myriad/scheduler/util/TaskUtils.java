@@ -16,7 +16,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-package org.apache.myriad.scheduler;
+package org.apache.myriad.scheduler.util;
 
 import org.apache.mesos.Protos;
 import org.apache.myriad.configuration.MyriadConfiguration;

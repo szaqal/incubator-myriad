@@ -26,6 +26,7 @@ import org.apache.myriad.configuration.MyriadConfiguration;
 import org.apache.myriad.configuration.MyriadContainerConfiguration;
 import org.apache.myriad.configuration.MyriadDockerConfiguration;
 import org.apache.myriad.scheduler.resource.ResourceOfferContainer;
+import org.apache.myriad.scheduler.util.TaskUtils;
 import org.apache.myriad.state.NodeTask;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

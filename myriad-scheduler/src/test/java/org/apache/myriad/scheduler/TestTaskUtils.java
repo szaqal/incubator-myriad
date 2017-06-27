@@ -20,6 +20,7 @@ package org.apache.myriad.scheduler;
 import static org.junit.Assert.assertTrue;
 import org.apache.mesos.Protos;
 import org.apache.myriad.BaseConfigurableTest;
+import org.apache.myriad.scheduler.util.TaskUtils;
 import org.junit.Test;
 
 import com.google.common.collect.Range;

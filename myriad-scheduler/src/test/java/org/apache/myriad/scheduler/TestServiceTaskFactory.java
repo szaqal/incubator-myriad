@@ -23,6 +23,7 @@ import org.apache.myriad.BaseConfigurableTest;
 import org.apache.myriad.configuration.ServiceConfiguration;
 import org.apache.myriad.scheduler.offer.OfferBuilder;
 import org.apache.myriad.scheduler.resource.ResourceOfferContainer;
+import org.apache.myriad.scheduler.util.TaskUtils;
 import org.apache.myriad.state.NodeTask;
 import org.junit.Test;
 

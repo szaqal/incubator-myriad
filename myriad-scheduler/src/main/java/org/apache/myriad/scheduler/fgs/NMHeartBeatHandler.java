@@ -37,7 +37,7 @@ import org.apache.mesos.Protos;
 import org.apache.mesos.Protos.Offer;
 import org.apache.myriad.configuration.NodeManagerConfiguration;
 import org.apache.myriad.scheduler.MyriadDriver;
-import org.apache.myriad.scheduler.SchedulerUtils;
+import org.apache.myriad.scheduler.util.SchedulerUtils;
 import org.apache.myriad.scheduler.yarn.interceptor.BaseInterceptor;
 import org.apache.myriad.scheduler.yarn.interceptor.InterceptorRegistry;
 import org.apache.myriad.state.SchedulerState;

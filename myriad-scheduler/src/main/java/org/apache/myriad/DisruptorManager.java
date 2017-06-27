@@ -39,20 +39,31 @@ import org.apache.myriad.scheduler.event.handlers.StatusUpdateEventHandler;
  * Here it is used to abstract incoming events.
  */
 public class DisruptorManager {
+
   private ExecutorService disruptorExecutors;
 
   private static final int DEFAULT_SMALL_RINGBUFFER_SIZE = 64;
+
   private static final int DEFAULT_LARGE_RINGBUFFER_SIZE = 1024;
 
   private Disruptor<RegisteredEvent> registeredEventDisruptor;
+
   private Disruptor<ReRegisteredEvent> reRegisteredEventDisruptor;
+
   private Disruptor<ResourceOffersEvent> resourceOffersEventDisruptor;
+
   private Disruptor<OfferRescindedEvent> offerRescindedEventDisruptor;
+
   private Disruptor<StatusUpdateEvent> statusUpdateEventDisruptor;
+
   private Disruptor<FrameworkMessageEvent> frameworkMessageEventDisruptor;
+
   private Disruptor<DisconnectedEvent> disconnectedEventDisruptor;
+
   private Disruptor<SlaveLostEvent> slaveLostEventDisruptor;
+
   private Disruptor<ExecutorLostEvent> executorLostEventDisruptor;
+
   private Disruptor<ErrorEvent> errorEventDisruptor;
 
   @SuppressWarnings("unchecked")
